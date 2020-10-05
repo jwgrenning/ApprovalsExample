@@ -8,5 +8,6 @@ target_include_directories(production_src
 	${CMAKE_CURRENT_SOURCE_DIR}/../inc/app
 	${CMAKE_CURRENT_SOURCE_DIR}/../inc/devices
 	${CMAKE_CURRENT_SOURCE_DIR}/../inc/util
+	${CMAKE_CURRENT_SOURCE_DIR}/../os/inc
 	# PRIVATE ... for local header file
 )

@@ -2,12 +2,8 @@
 //- All rights reserved
 //- For use by participants in James' training courses.
 
-
-extern int lights[];
-void turn_on();
-
-
-#if 0
+#ifndef D_LightScheduler_H
+#define D_LightScheduler_H
 
 class LightSwitch;
 class RandomMinuteGenerator;

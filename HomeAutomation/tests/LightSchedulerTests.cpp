@@ -1,3 +1,4 @@
+#include "TimeService.h"
 #include "LightScheduler.h"
 
 #include <catch2/catch.hpp>
