@@ -2,12 +2,6 @@
 //- All rights reserved
 //- For use by participants in James' training courses.
 
-void turn_on()
-{
-
-}
-
-#if 0
 
 #include "TimeService.h"
 #include "LightScheduler.h"
@@ -213,4 +207,3 @@ void LightScheduler::Remove(int id, Time::Day day, int minute)
         }
     }
 }
-#endif

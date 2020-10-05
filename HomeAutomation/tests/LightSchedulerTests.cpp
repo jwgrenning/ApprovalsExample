@@ -6,6 +6,6 @@
 using namespace ApprovalTests;
 
 TEST_CASE("Light Scheduler Test") {
-	// LightScheduler scheduler;
+	LightScheduler scheduler;
 	Approvals::verify("Light scheduler ApprovalTests");
 }

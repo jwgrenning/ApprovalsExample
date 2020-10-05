@@ -1,3 +1,4 @@
+# Not sure what all this does -- jwg
 if(NOT TARGET ApprovalTests)
     set(LIB_NAME ApprovalTests)
     add_library(${LIB_NAME} INTERFACE)
