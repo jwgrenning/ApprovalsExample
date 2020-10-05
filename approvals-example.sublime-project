@@ -1,0 +1,22 @@
+    {
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+
+    "build_systems":
+    [
+        {
+            /* your existing build command arguments */
+            "name": "approvals",
+            "working_dir": "${project_path}",
+            "cmd": ["bash", "build-and-test.sh"],
+
+            /*  add target and syntax */
+            "target": "ansi_color_build",
+            "syntax": "Packages/ANSIescape/ANSI.sublime-syntax"
+        }
+    ]
+}

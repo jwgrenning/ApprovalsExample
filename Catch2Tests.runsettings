@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+    <Catch2Adapter>
+        <FilenameFilter>.*_tests.*</FilenameFilter>
+        <DiscoverCommandLine>--verbosity high --list-tests *</DiscoverCommandLine>
+    </Catch2Adapter>
+</RunSettings>
